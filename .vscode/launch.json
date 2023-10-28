@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileExtensionFilter",
+            "request": "launch",
+            "mainClass": "FileExtensionFilter",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "Bank",
             "request": "launch",
             "mainClass": "Bank",
