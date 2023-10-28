@@ -1,25 +1,23 @@
-public abstract class Employee implements Payable {
-    private final String firstName;
-    private final String lastName;
-    private final String socialSecurityNumber;
+public class Employee {
+    private String name;
+    private int id;
+    private static int employeeCount = 0;
 
-    public Employee(String firstName, String lastName, String socialSecurityNumber){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.socialSecurityNumber = socialSecurityNumber;
+    public Employee(String name, int id) {
+        this.name = name;
+        this.id = id;
+        employeeCount++;
     }
-    public String getFirstName(){
-        return firstName;
+
+    public String getName() {
+        return name;
     }
-    public String getLastName(){
-        return lastName;
+
+    public int getId() {
+        return id;
     }
-    public String getSocialSecurityNumber(){
-        return socialSecurityNumber;
+
+    public static int getEmployeeCount() {
+        return employeeCount;
     }
-    @Override
-    public String toString(){
-        return String.format("%s %s\nsocial security number: %s", getFirstName(), getLastName(), getSocialSecurityNumber());
-    }
-    public abstract double earnings();
 }
