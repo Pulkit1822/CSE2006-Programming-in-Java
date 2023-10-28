@@ -1,0 +1,370 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Bank",
+            "request": "launch",
+            "mainClass": "Bank",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "PrimeAndMultiplicationTable",
+            "request": "launch",
+            "mainClass": "PrimeAndMultiplicationTable",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "MatrixMulti",
+            "request": "launch",
+            "mainClass": "MatrixMulti",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "PrimeTaskCalculator",
+            "request": "launch",
+            "mainClass": "PrimeTaskCalculator",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "ProgressBarDemo",
+            "request": "launch",
+            "mainClass": "ProgressBarDemo",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "ProducerConsumerDemo",
+            "request": "launch",
+            "mainClass": "ProducerConsumerDemo",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciTest",
+            "request": "launch",
+            "mainClass": "FibonacciTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciGUI",
+            "request": "launch",
+            "mainClass": "FibonacciGUI",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "PrintTask",
+            "request": "launch",
+            "mainClass": "PrintTask",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "UsingChainedExceptions",
+            "request": "launch",
+            "mainClass": "UsingChainedExceptions",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "UsingExceptions",
+            "request": "launch",
+            "mainClass": "UsingExceptions",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "GenericPrint",
+            "request": "launch",
+            "mainClass": "GenericPrint",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "StringManipulation",
+            "request": "launch",
+            "mainClass": "StringManipulation",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "InvoiceTest",
+            "request": "launch",
+            "mainClass": "InvoiceTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "PayableInterfaceTest",
+            "request": "launch",
+            "mainClass": "PayableInterfaceTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "BasePlusCommissionEmployeeTest",
+            "request": "launch",
+            "mainClass": "BasePlusCommissionEmployeeTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "BasePlusCommissionEmployee",
+            "request": "launch",
+            "mainClass": "BasePlusCommissionEmployee",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/Addition",
+            "request": "launch",
+            "mainClass": "javafx.media/Addition",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/EmployeeTest",
+            "request": "launch",
+            "mainClass": "javafx.media/EmployeeTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/Comparison",
+            "request": "launch",
+            "mainClass": "javafx.media/Comparison",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/LogicalOperators",
+            "request": "launch",
+            "mainClass": "javafx.media/LogicalOperators",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/Increment",
+            "request": "launch",
+            "mainClass": "javafx.media/Increment",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/welcome3",
+            "request": "launch",
+            "mainClass": "javafx.media/welcome3",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/Scope",
+            "request": "launch",
+            "mainClass": "javafx.media/Scope",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "media/ClassAverage",
+            "request": "launch",
+            "mainClass": "javafx.media/ClassAverage",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "DrawRandomLinesController",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "demo.src.main.java.com.example.Main",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeTest",
+            "request": "launch",
+            "mainClass": "EmployeeTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "RollDie",
+            "request": "launch",
+            "mainClass": "RollDie",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "DrawRandomLinesController",
+            "request": "launch",
+            "mainClass": "DrawRandomLinesController",
+            "projectName": "java_3aff95de",
+            "vmArgs": "/Users/pulkitmathur/Documents/java/javafx-sdk-21.0.1/lib"
+        },
+        {
+            "type": "java",
+            "name": "MaximumFinder",
+            "request": "launch",
+            "mainClass": "MaximumFinder",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "AssertTest",
+            "request": "launch",
+            "mainClass": "AssertTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "DivideByZeroWithExceptionHandling",
+            "request": "launch",
+            "mainClass": "DivideByZeroWithExceptionHandling",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "DividebyZeroNoexpHandling",
+            "request": "launch",
+            "mainClass": "DividebyZeroNoexpHandling",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "StringConstructors",
+            "request": "launch",
+            "mainClass": "StringConstructors",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "LogicalOperators",
+            "request": "launch",
+            "mainClass": "LogicalOperators",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Increment",
+            "request": "launch",
+            "mainClass": "Increment",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "ClassAverage",
+            "request": "launch",
+            "mainClass": "ClassAverage",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Comparison",
+            "request": "launch",
+            "mainClass": "Comparison",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Addition",
+            "request": "launch",
+            "mainClass": "Addition",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "welcome4",
+            "request": "launch",
+            "mainClass": "welcome4",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "welcome3",
+            "request": "launch",
+            "mainClass": "welcome3",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Time1Test",
+            "request": "launch",
+            "mainClass": "Time1Test",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "AccountTest",
+            "request": "launch",
+            "mainClass": "AccountTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Scope",
+            "request": "launch",
+            "mainClass": "Scope",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "RandomIntegers",
+            "request": "launch",
+            "mainClass": "RandomIntegers",
+            "projectName": "java_3aff95de"
+        }
+    ]
+}
