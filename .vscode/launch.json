@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PlayerMain",
+            "request": "launch",
+            "mainClass": "PlayerMain",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Average",
+            "request": "launch",
+            "mainClass": "Average",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "AverageCalculator",
+            "request": "launch",
+            "mainClass": "AverageCalculator",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "CircleArea",
+            "request": "launch",
+            "mainClass": "CircleArea",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "FileExtensionFilter",
             "request": "launch",
             "mainClass": "FileExtensionFilter",
