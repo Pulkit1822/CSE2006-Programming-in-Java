@@ -1,133 +1,161 @@
 import java.util.Scanner;
 
 class Player {
-    String name;
-    int playerID;
-    String country;
+    private String name;
+    private int playerId;
+    private String country;
 
-    Player(String name, int playerID, String country) {
+    // Constructor
+    public Player(String name, int playerId, String country) {
         this.name = name;
-        this.playerID = playerID;
+        this.playerId = playerId;
         this.country = country;
     }
 
-    void getPlayerDetails(Scanner scanner) {
-        System.out.print("Enter player name: ");
+    // Getters and Setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPlayerId() {
+        return playerId;
+    }
+
+    public void setPlayerId(int playerId) {
+        this.playerId = playerId;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    // Input method
+    public void input() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter player's name: ");
         name = scanner.nextLine();
-        System.out.print("Enter player ID: ");
-        playerID = scanner.nextInt();
-        scanner.nextLine(); // Consume newline character
-        System.out.print("Enter player country: ");
+        System.out.println("Enter player's ID: ");
+        playerId = scanner.nextInt();
+        scanner.nextLine();  // Consume the newline character
+        System.out.println("Enter player's country: ");
         country = scanner.nextLine();
     }
 
-    void displayPlayerDetails() {
-        System.out.println("Player Name: " + name);
-        System.out.println("Player ID: " + playerID);
-        System.out.println("Player Country: " + country);
+    // Output method
+    public void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Player ID: " + playerId);
+        System.out.println("Country: " + country);
     }
 }
 
 class Cricket extends Player {
-    int matches;
-    int runs;
-    int wickets;
-    int catches;
+    private int matches;
+    private int runs;
+    private int wickets;
+    private int catches;
 
-    Cricket(String name, int playerID, String country) {
-        super(name, playerID, country);
+    public Cricket(String name, int playerId, String country) {
+        super(name, playerId, country);
     }
 
-    void getCricketDetails(Scanner scanner) {
-        getPlayerDetails(scanner);
-        System.out.print("Enter number of matches played: ");
+    public void input() {
+        super.input();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of matches played: ");
         matches = scanner.nextInt();
-        System.out.print("Enter total runs scored: ");
+        System.out.println("Enter the total runs scored: ");
         runs = scanner.nextInt();
-        System.out.print("Enter total wickets taken: ");
+        System.out.println("Enter the total wickets taken: ");
         wickets = scanner.nextInt();
-        System.out.print("Enter total catches: ");
+        System.out.println("Enter the total catches taken: ");
         catches = scanner.nextInt();
     }
 
-    void displayCricketDetails() {
-        displayPlayerDetails();
+    public void display() {
+        super.display();
         System.out.println("Matches Played: " + matches);
-        System.out.println("Runs Scored: " + runs);
-        System.out.println("Wickets Taken: " + wickets);
-        System.out.println("Catches: " + catches);
+        System.out.println("Total Runs: " + runs);
+        System.out.println("Total Wickets: " + wickets);
+        System.out.println("Total Catches: " + catches);
     }
 }
 
 class Football extends Player {
-    int matches;
-    int goals;
+    private int matches;
+    private int goals;
 
-    Football(String name, int playerID, String country) {
-        super(name, playerID, country);
+    public Football(String name, int playerId, String country) {
+        super(name, playerId, country);
     }
 
-    void getFootballDetails(Scanner scanner) {
-        getPlayerDetails(scanner);
-        System.out.print("Enter number of matches played: ");
+    public void input() {
+        super.input();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of matches played: ");
         matches = scanner.nextInt();
-        System.out.print("Enter total goals scored: ");
+        System.out.println("Enter the total goals scored: ");
         goals = scanner.nextInt();
     }
 
-    void displayFootballDetails() {
-        displayPlayerDetails();
+    public void display() {
+        super.display();
         System.out.println("Matches Played: " + matches);
-        System.out.println("Goals Scored: " + goals);
+        System.out.println("Total Goals: " + goals);
     }
 }
 
 class Tennis extends Player {
-    int matches;
-    int titles;
+    private int matches;
+    private int titles;
 
-    Tennis(String name, int playerID, String country) {
-        super(name, playerID, country);
+    public Tennis(String name, int playerId, String country) {
+        super(name, playerId, country);
     }
 
-    void getTennisDetails(Scanner scanner) {
-        getPlayerDetails(scanner);
-        System.out.print("Enter number of matches played: ");
+    public void input() {
+        super.input();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of matches played: ");
         matches = scanner.nextInt();
-        System.out.print("Enter total titles won: ");
+        System.out.println("Enter the number of titles won: ");
         titles = scanner.nextInt();
     }
 
-    void displayTennisDetails() {
-        displayPlayerDetails();
+    public void display() {
+        super.display();
         System.out.println("Matches Played: " + matches);
-        System.out.println("Titles Won: " + titles);
+        System.out.println("Total Titles: " + titles);
     }
 }
 
 public class PlayerMain {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Cricket cricketPlayer = new Cricket("John", 101, "England");
+        Football footballPlayer = new Football("David", 102, "Spain");
+        Tennis tennisPlayer = new Tennis("Serena", 103, "USA");
 
-        Cricket cricketPlayer = new Cricket("", 0, "");
-        Football footballPlayer = new Football("", 0, "");
-        Tennis tennisPlayer = new Tennis("", 0, "");
+        System.out.println("Cricket Player Details:");
+        cricketPlayer.input();
+        System.out.println("\nPlayer Information:");
+        cricketPlayer.display();
 
-        System.out.println("Enter Cricket Player Details:");
-        cricketPlayer.getCricketDetails(scanner);
-        System.out.println("\nCricket Player Details:");
-        cricketPlayer.displayCricketDetails();
-
-        System.out.println("\nEnter Football Player Details:");
-        footballPlayer.getFootballDetails(scanner);
         System.out.println("\nFootball Player Details:");
-        footballPlayer.displayFootballDetails();
+        footballPlayer.input();
+        System.out.println("\nPlayer Information:");
+        footballPlayer.display();
 
-        System.out.println("\nEnter Tennis Player Details:");
-        tennisPlayer.getTennisDetails(scanner);
         System.out.println("\nTennis Player Details:");
-        tennisPlayer.displayTennisDetails();
-
-        scanner.close();
+        tennisPlayer.input();
+        System.out.println("\nPlayer Information:");
+        tennisPlayer.display();
     }
 }
