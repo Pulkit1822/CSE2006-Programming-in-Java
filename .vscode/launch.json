@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PassArray",
+            "request": "launch",
+            "mainClass": "PassArray",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "PlayerMain",
             "request": "launch",
             "mainClass": "PlayerMain",
