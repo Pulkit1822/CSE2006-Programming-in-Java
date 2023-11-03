@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "webPages",
+            "request": "launch",
+            "mainClass": "webPages",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "WebPages",
+            "request": "launch",
+            "mainClass": "WebPages",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "InitArray",
             "request": "launch",
             "mainClass": "InitArray",
