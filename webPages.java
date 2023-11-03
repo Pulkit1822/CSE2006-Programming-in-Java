@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class webPages {
+public class Main {
     public static int findMinimumClicks(HashMap<Integer, List<Integer>> webPages, int startPage, int endPage) {
         if (startPage == endPage) {
             return 0;
