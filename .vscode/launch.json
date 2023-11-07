@@ -3,6 +3,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileAndDirectoryInfo",
+            "request": "launch",
+            "mainClass": "FileAndDirectoryInfo",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListCollection",
+            "request": "launch",
+            "mainClass": "ArrayListCollection",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "ArrayManipulations",
+            "request": "launch",
+            "mainClass": "ArrayManipulations",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "InitArray2",
+            "request": "launch",
+            "mainClass": "InitArray2",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "VarargsTest",
+            "request": "launch",
+            "mainClass": "VarargsTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "webPages",
             "request": "launch",
             "mainClass": "webPages",
