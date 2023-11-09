@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CreditInquiry",
+            "request": "launch",
+            "mainClass": "CreditInquiry",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "FileAndDirectoryInfo",
             "request": "launch",
             "mainClass": "FileAndDirectoryInfo",
