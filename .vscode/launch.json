@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UsingToArray",
+            "request": "launch",
+            "mainClass": "UsingToArray",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "CollectionTest",
+            "request": "launch",
+            "mainClass": "CollectionTest",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "CreditInquiry",
             "request": "launch",
             "mainClass": "CreditInquiry",
