@@ -5,7 +5,7 @@ public class PrimeAndMultiplicationTable {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter a number: ");
             int num = scanner.nextInt();
-
+a
             boolean isPrime = num > 1;  
             for (int i = 2; i * i <= num; i++) {
                 if (num % i == 0) {
