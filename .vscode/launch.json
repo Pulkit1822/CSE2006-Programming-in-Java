@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MySqlConn",
+            "request": "launch",
+            "mainClass": "MySqlConn",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "UsingToArray",
             "request": "launch",
             "mainClass": "UsingToArray",
