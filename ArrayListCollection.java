@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class ArrayListCollection {
     public static void main(String[] args) {
-        // Using diamond inference for generic type
         ArrayList<String> items = new ArrayList<>();
 
         items.add("red");
