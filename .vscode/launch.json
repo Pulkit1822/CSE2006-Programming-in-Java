@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PowerCalculator",
+            "request": "launch",
+            "mainClass": "PowerCalculator",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "Power",
+            "request": "launch",
+            "mainClass": "Power",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "FileReadExample",
             "request": "launch",
             "mainClass": "FileReadExample",
