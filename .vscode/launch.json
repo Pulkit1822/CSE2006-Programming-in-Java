@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileReadExample",
+            "request": "launch",
+            "mainClass": "FileReadExample",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "FileCreator",
+            "request": "launch",
+            "mainClass": "FileCreator",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "FileInfo",
+            "request": "launch",
+            "mainClass": "FileInfo",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "CppBuzz",
             "request": "launch",
             "mainClass": "CppBuzz",
