@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CppBuzz",
+            "request": "launch",
+            "mainClass": "CppBuzz",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java_3aff95de"
+        },
+        {
+            "type": "java",
             "name": "MySqlConn",
             "request": "launch",
             "mainClass": "MySqlConn",
