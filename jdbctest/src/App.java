@@ -11,8 +11,8 @@ public class App {
 
       // Establish a connection
       String url = "jdbc:mysql://localhost:3306/mydb";
-      String user = "";
-      String password = "";
+      String user = "root";
+      String password = "Pulkit18";
       Connection con = DriverManager.getConnection(url, user, password);
 
       // Create a statement
