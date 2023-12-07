@@ -76,8 +76,8 @@ public class DatabaseGUI extends JFrame {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String jdbcUrl = "jdbc:mysql://localhost:3306/mydb?useSSL=false";
-            String username = "root";
-            String password = "Pulkit18";
+            String username = "";
+            String password = "";
             connection = DriverManager.getConnection(jdbcUrl, username, password);
         } catch (Exception e) {
             e.printStackTrace();
