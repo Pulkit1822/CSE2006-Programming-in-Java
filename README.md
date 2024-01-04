@@ -51,4 +51,4 @@ java --module-path $JAVAFX_HOME --add-modules javafx.controls Assignment
 
 ## About the Author 
 
-These assignments were completed by Pulkit Kumar Mathur as part of a Java course.
+These assignments were completed by Pulkit Kumar Mathur.
