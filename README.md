@@ -1,3 +1,10 @@
+
+### 💡 Explore Sponsorship Options
+
+Discover how you can support this project and gain access to exclusive benefits by exploring the sponsorship options available for this repository.
+
+
+---
 # Java and JavaFX Assignments 
 
 This repository contains Java and JavaFX assignments completed by me. 
