@@ -1,4 +1,3 @@
-
 # [Programming in Java (CSE2006)](https://github.com/Pulkit1822/CSE2006-Programming-in-Java)
 
 This repository consists the assignments, classwork, activity, study materials, question papers, JavaFX sdk download for Mac, and my answer sheets for: Programming in Java (CSE2006) offered in the Interim Semester2023-24.
@@ -9,10 +8,14 @@ This repository consists the assignments, classwork, activity, study materials, 
 
 To support this project, explore sponsorship options available for this repository, as every contribution counts and your support will greatly benefit its development 😊
 
-
 ---
 
+## Result
 
+Here are my scores:
+![Result]()
+
+---
 
 ## Contents
 
@@ -20,7 +23,6 @@ The assignments demonstrate skills in:
 
 - Core Java
 - JavaFX
-
 
 ## Setup 
 
