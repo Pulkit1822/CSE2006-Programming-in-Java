@@ -13,7 +13,7 @@ To support this project, explore sponsorship options available for this reposito
 ## Result
 
 Here are my scores:
-![Result]()
+![Result](https://github.com/Pulkit1822/CSE2006-Programming-in-Java/blob/main/Answers%20(Term%20End%20-%20Other%20Slots)/result.png)
 
 ---
 
